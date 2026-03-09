@@ -1,28 +1,2 @@
-# SmartCart -- Customer Segmentation Project
-Hi
-This is my SmartCart Customer Segmentation project.
-In this project, I used Machine Learning clustering techniques
-to group customers based on income, age, and spending behaviour.-------------------------------------------------------------------
-About the Project
-The main goal of this project is to analyze customer data
-and identify different types of customers using ML techniques.
-Things I practiced in this project:- Data cleaning- Handling missing values- Removing outliers- Feature scaling- Customer clustering- Data visualization-------------------------------------------------------------------
-Technologies Used- Python- NumPy- Pandas- Matplotlib- Seaborn- Scikit-learn- Jupyter Notebook-------------------------------------------------------------------
-Project Workflow
-1. Import required libraries
-2. Load the dataset
-3. Handle missing values
-4. Remove outliers
-5. Encode categorical data
-6. Scale the features using StandardScaler
-7. Apply clustering algorithms
-8. Analyze the clusters-------------------------------------------------------------------
-Clustering Methods Used- K-Means Clustering- Agglomerative Clustering- Elbow Method- Silhouette Score-------------------------------------------------------------------
-How to Run the Project
-1. Clone the repository
-2. Open the notebook in Jupyter Notebook
-3. Run all cells step by step-------------------------------------------------------------------
-Final Note
-This project is part of my Machine Learning learning journey.
-I am continuously learning and improving my skills.
+
 
