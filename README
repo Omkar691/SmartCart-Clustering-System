@@ -1,1 +1,95 @@
+# SmartCart Customer Segmentation
+
+## About the Project
+
+This project analyzes SmartCart customer data to understand different types of customers based on their income and spending behavior.
+Machine learning clustering techniques are used to group similar customers together.
+
+The goal of this project is to help businesses understand customer patterns and improve marketing strategies.
+
+## Dataset
+
+The dataset contains information about customers such as:
+
+* Age
+* Income
+* Spending related features
+
+This data is used to analyze customer behavior and create clusters of similar customers.
+
+## Technologies Used
+
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+## Steps Performed in the Project
+
+### 1. Data Loading
+
+The dataset is loaded using Pandas.
+
+### 2. Data Preprocessing
+
+* Checked for missing values
+* Filled missing income values using the median
+
+### 3. Feature Engineering
+
+Created useful features to better understand customer spending patterns.
+
+### 4. Outlier Detection
+
+Removed extreme values that could affect the clustering results.
+
+### 5. Data Visualization
+
+Used plots and heatmaps to understand relationships between features.
+
+### 6. Data Encoding
+
+Categorical features were converted into numerical format.
+
+### 7. Data Scaling
+
+StandardScaler was used to scale the data before applying clustering.
+
+### 8. Finding Optimal Clusters
+
+Two methods were used:
+
+* Elbow Method
+* Silhouette Score
+
+### 9. Clustering Algorithms
+
+Two clustering techniques were applied:
+
+* K-Means Clustering
+* Agglomerative Clustering
+
+After comparison, Agglomerative Clustering performed better for this dataset.
+
+### 10. Cluster Analysis
+
+Customer groups were analyzed based on income and spending behavior.
+
+## Results
+
+The project successfully grouped customers into different clusters.
+These clusters help in understanding different types of customers and their spending habits.
+
+## How to Run the Project
+
+1. Open the Jupyter Notebook.
+2. Install required libraries if not installed.
+3. Run the notebook cells step by step.
+
+## Conclusion
+
+Customer segmentation helps businesses understand their customers better.
+Using clustering techniques, companies can design better marketing strategies and improve customer experience.
 
